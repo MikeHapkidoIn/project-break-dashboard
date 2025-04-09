@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KeyGen</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Dashboard</title>
 </head>
-<body>
+<body onload="startTime()">
+    <div id="clockdate">
+        <div class="clockdate-wrapper">
+          <div id="clock"></div>
+          <div id="date"></div>
+          <div id ="message"></div>
+        </div>
+      </div>
+      <div class = "password-container" id=" = password-container">
+        <h2> Genera tu contraseña</h2>
+
+    </div>
+    <div>
+        <input type="number" id = "passwordLongitud" min="12" max="50" value="12">
+        <button class = "boton" id = "boton">Generar Contraseña</button>
+        <div class = "displayPassword" id = "displayPassword"></div>
+    </div>
     <header>
         <nav>
 
@@ -23,5 +40,8 @@
 
         </div>
     </footer>
+    <script src="./reloj.js"></script>
+    <script src="./KeyGen.js"></script>
+    <script src="./background.js"></script>
 </body>
 </html>

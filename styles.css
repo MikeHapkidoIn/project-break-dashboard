@@ -5,3 +5,14 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+
+.input-container{
+    width: 100px;
+    height: 100px;
+}
+
+.clockdate-wrapper{
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+}

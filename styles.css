@@ -12,7 +12,69 @@ body{
 }
 
 .clockdate-wrapper{
+    display: flex;
+    padding:10px, 15px;
+    border: powderblue 5px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.451);
+    margin-top:50px;
+    justify-content: space-between;
+
+    
+
+}
+
+#clock{
+    font-family: monospace; 
+    font-size:50px;
     border-radius: 5px;
-    border-color: black;
+    color: black;
+    
+}
+
+#date{
+    font-size: xx-large;
+    color:black;
+    text-decoration:double;
+    font-family:sans-serif;
+
+}º
+
+#message{
+    font-size: x-large;
+    color: black;
+}
+
+div .displayPassword p{
+    padding:10px, 15px;
+    border: powderblue 5px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.451);
+
+}
+
+.password-container h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:10px, 15px;
+    border: powderblue 5px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.451);
+
+   
+}
+
+.displayPassword{
     background-color: white;
+    padding:10px, 15px;
+    border: powderblue 5px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.451);
+}
+
+section{
+    padding:10px, 15px;
+    border: powderblue 5px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.451);
+    margin-top: 100px;
 }
